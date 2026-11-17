@@ -45,7 +45,9 @@ Pengujian berikut didokumentasikan berdasarkan hasil program yang dijalankan. Ta
 # 1. Mengisi produk
 Program dijalankan dengan memilih menu 2. Produk bernama nasi goreng ditambahkan dengan harga Rp15.000 dan stok 24. Program menampilkan pesan bahwa produk berhasil ditambahkan.
 
+
 <img width="908" height="457" alt="1" src="https://github.com/user-attachments/assets/bc6b8677-7aca-4b1d-91de-59057afd62ff" />
+
 
 # 2. Transaksi beberapa jenis produk
 Program dijalankan dengan memilih menu 4 dan memasukkan 3 jenis produk. Point Coffe sebanyak 5 unit berhasil diproses. Pembelian Seafood Tumpah sebanyak 5 unit ditolak karena stok yang tersedia hanya 4. Daging Wagyu A5 sebanyak 5 unit berhasil diproses.
