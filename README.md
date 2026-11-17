@@ -81,6 +81,7 @@ Pilihan kedua mengurutkan produk berdasarkan jumlah penjualan terbanyak.
 
 # 7. Mencari produk dan memeriksa menipisnya persediaan
 Menu 6 digunakan untuk mencari produk dengan kata kunci “roti aroma” . Program berhasil menampilkan produk Roti Aroma, harga Rp10.000, dan stok 4. dan seafood tumpah, harga Rp125.000, dan stock 4 
+
 <img width="488" height="442" alt="9" src="https://github.com/user-attachments/assets/637e6e3f-45bd-448f-b55d-2005423f1d4a" />
 
 <img width="488" height="417" alt="10" src="https://github.com/user-attachments/assets/1d0df554-9d5e-4bf6-91ff-c2a35e9733a4" />
