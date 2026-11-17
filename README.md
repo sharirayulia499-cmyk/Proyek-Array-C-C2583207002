@@ -9,22 +9,21 @@ Identitas Mahasiswa
 Deskripsi Proyek
 Program ini merupakan aplikasi berbasis terminal yang dibuat menggunakan bahasa pemrograman C untuk membantu menyatukan persediaan produk dan mencatat transaksi penjualan kantin kampus. Data produk disimpan sementara di dalam array selama program berjalan, sehingga program tidak menggunakan database maupun penyimpanan file.
 Fitur Program
-1. Melihat daftar produk beserta harga, stok, dan jumlah terjual.
-2. Produk baru.
-3. Mengubah harga dan stok produk.
-4. Melakukan transaksi pembelian beberapa jenis produk sekaligus.
-5. Mengosongkan stok produk.
-6. Mencari produk berdasarkan nama atau kata kunci.
-7. Mengurutkan produk berdasarkan harga termurah atau jumlah penjualan terbanyak.
-8. Menampilkan laporan penjualan, total unit terjual, total pendapatan, dan produk terlaris.
-9. Menampilkan produk dengan stok kurang dari 5.
-10. Memvalidasi beberapa masukan, seperti nomor menu/produk, harga, stok, dan jumlah pembelian.
+1. Lihat Daftar Produk: Menampilkan nomor, nama, harga satuan, sisa stok, dan jumlah terjual seluruh produk.
+2. Tambah Produk: Menambahkan data produk baru ke dalam array (kapasitas maksimal 50 produk).
+3. Ubah Produk: Memperbarui harga dan jumlah stok produk yang sudah terdaftar.
+4. Transaksi Penjualan: Memproses pembelian beberapa jenis produk dalam satu transaksi, menghitung subtotal & total pembayaran, serta mengurangi stok dan menambah jumlah terjual secara otomatis.
+5. Tambah Stok: Menambahkan jumlah stok pada produk tertentu.
+6. Cari Produk: Mencari data produk berdasarkan kata kunci nama produk.
+7. Urutkan Produk: Mengurutkan daftar produk berdasarkan harga termurah (ascending) dan jumlah terjual terbanyak (descending).
+8. Laporan Penjualan: Menghitung dan menampilkan jumlah terjual per produk, total unit terjual, total pendapatan kantin, serta produk paling laris.
+9. Cek Stok Menipis: Menampilkan peringatan daftar produk yang memiliki sisa stok kurang dari 5 unit.
 Penerapan Array
 Program menggunakan beberapa array untuk menyimpan data produk:
-- namaProduk[MAX_PRODUK][MAX_NAMA] : array dua dimensi untuk menyimpan nama produk. Kapasitas maksimal adalah 50 produk, dengan ruang nama maksimal 49 karakter ditambah karakter akhir string.
-- hargaProduk[MAX_PRODUK] : array satu dimensi untuk menyimpan harga setiap produk.
-- stokProduk[MAX_PRODUK] : array satu dimensi untuk menyimpan jumlah stok setiap produk.
-- terjualProduk[MAX_PRODUK] : array satu dimensi untuk menyimpan jumlah unit yang telah terjual.
+- namaProduk [MAX_PRODUK][MAX_NAMA] : array dua dimensi untuk menyimpan nama produk. Kapasitas maksimal adalah 50 produk, dengan ruang nama maksimal 49 karakter ditambah karakter akhir string.
+- hargaProduk [MAX_PRODUK] : array satu dimensi untuk menyimpan harga setiap produk.
+- stokProduk [MAX_PRODUK] : array satu dimensi untuk menyimpan jumlah stok setiap produk.
+- terjualProduk [MAX_PRODUK] : array satu dimensi untuk menyimpan jumlah unit yang telah terjual.
 - jumlahData : variabel untuk menyimpan jumlah produk yang sedang terdaftar.
 Indeks yang sama pada setiap array menunjukkan data dari produk yang sama. Contohnya, indeks ke-0 pada namaProduk , hargaProduk , stokProduk , dan terjualProduk merupakan informasi untuk produk pertama. Program menyediakan 5 data awal dan dapat menampung maksimal 50 produk.
 
@@ -68,7 +67,9 @@ Menu 8 menampilkan jumlah penjualan dan pendapatan setiap produk. Berdasarkan ha
 6. Mengurutkan produk
 Menu 7 digunakan untuk menguji dua jenis pengurutan. Pilihan pertama mengurutkan produk berdasarkan harga termurah.
 <img width="670" height="625" alt="7" src="https://github.com/user-attachments/assets/0973810d-5694-4528-bef8-8cc4e30dc24d" />
+
 Pilihan kedua mengurutkan produk berdasarkan jumlah penjualan terbanyak.
+
 <img width="685" height="626" alt="8" src="https://github.com/user-attachments/assets/b2dd7b31-6c4b-49c6-8321-53380f4bb87a" />
 
 7. Mencari produk dan memeriksa menipisnya persediaan
