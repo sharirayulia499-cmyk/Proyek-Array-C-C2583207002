@@ -46,3 +46,36 @@ Pengujian berikut didokumentasikan berdasarkan hasil program yang dijalankan. Ta
 1. Mengisi produk
 Program dijalankan dengan memilih menu 2. Produk bernama nasi goreng ditambahkan dengan harga Rp15.000 dan stok 24. Program menampilkan pesan bahwa produk berhasil ditambahkan.
 <img width="908" height="457" alt="1" src="https://github.com/user-attachments/assets/bc6b8677-7aca-4b1d-91de-59057afd62ff" />
+
+2. Transaksi beberapa jenis produk
+Program dijalankan dengan memilih menu 4 dan memasukkan 3 jenis produk. Point Coffe sebanyak 5 unit berhasil diproses. Pembelian Seafood Tumpah sebanyak 5 unit ditolak karena stok yang tersedia hanya 4. Daging Wagyu A5 sebanyak 5 unit berhasil diproses.
+<img width="765" height="847" alt="2" src="https://github.com/user-attachments/assets/f3084d04-9ab3-4374-8c77-fa3e31871e06" />
+<img width="750" height="141" alt="3" src="https://github.com/user-attachments/assets/59ade762-7a09-4c13-ab82-6289598a8989" />
+Struk menampilkan subtotal Point Coffe sebesar Rp90.000 dan Daging Wagyu A5 sebesar Rp7.500.000, sehingga total pembayaran menjadi Rp7.590.000.
+
+3. pasang stok
+Menu 5 digunakan untuk menambah stok Point Coffe sebanyak 30 unit. Sebelum penambahan, stok Point Coffe sebanyak 25 unit. Program yang menampilkan pesan bahwa stok berhasil ditambahkan.
+<img width="728" height="568" alt="4" src="https://github.com/user-attachments/assets/7ba8fbc9-ffb8-4283-a950-a61850402aa1" />
+
+4. Menguji stok yang tidak mencukupi
+Pada menu transaksi, dilakukan percobaan pembelian 6 unit Roti Aroma, sedangkan stok yang tersedia hanya 4 unit. Program menampilkan pesan “Stok produk tidak mencukupi!” dan transaksi tidak diproses.
+<img width="678" height="693" alt="5" src="https://github.com/user-attachments/assets/57f69f3a-a2bf-4ef0-ba48-08e3f5ced50f" />
+
+5. Menampilkan laporan penjualan
+Menu 8 menampilkan jumlah penjualan dan pendapatan setiap produk. Berdasarkan hasil pengujian, total unit terjual adalah 70 unit, total pendapatan Rp31.410.000, dan produk terlaris adalah Es Orange sebanyak 20 unit.
+<img width="738" height="567" alt="6" src="https://github.com/user-attachments/assets/4c1ed0b3-8cb9-42b4-86af-976be6884b74" />
+
+6. Mengurutkan produk
+Menu 7 digunakan untuk menguji dua jenis pengurutan. Pilihan pertama mengurutkan produk berdasarkan harga termurah.
+<img width="670" height="625" alt="7" src="https://github.com/user-attachments/assets/0973810d-5694-4528-bef8-8cc4e30dc24d" />
+Pilihan kedua mengurutkan produk berdasarkan jumlah penjualan terbanyak.
+<img width="685" height="626" alt="8" src="https://github.com/user-attachments/assets/b2dd7b31-6c4b-49c6-8321-53380f4bb87a" />
+
+7. Mencari produk dan memeriksa menipisnya persediaan
+Menu 6 digunakan untuk mencari produk dengan kata kunci “roti aroma” . Program berhasil menampilkan produk Roti Aroma, harga Rp10.000, dan stok 4.
+<img width="488" height="442" alt="9" src="https://github.com/user-attachments/assets/637e6e3f-45bd-448f-b55d-2005423f1d4a" />
+<img width="488" height="417" alt="10" src="https://github.com/user-attachments/assets/1d0df554-9d5e-4bf6-91ff-c2a35e9733a4" />
+
+
+
+
